@@ -129,7 +129,7 @@ h2.blog-description {
   margin-bottom: 3em;
   padding: .5em 1em;
   line-height: 1.2em;
-  text-decoration: none;
+  text-transform: none;
 }
 header.article-header,
 header.page-header {

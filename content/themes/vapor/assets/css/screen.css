@@ -449,6 +449,15 @@ a.archive-link {
   position: relative;
   top: -1px;
 }
+.fb-comments {
+  width: 100%;
+}
+.fb-comments > span {
+  width: 100% !important;
+}
+.fb-comments > span > iframe {
+  width: 100% !important;
+}
 /* === Media Queries === */
 @media only screen and (min-width: 320px) and (max-width: 500px) {
   footer section span.copyright {

@@ -14,7 +14,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 33px;
-  text-transform: none; }
+  text-transform: none;
+  color: #303030; }
 
 h1, h2, h3, h4, p, li, dt, dd {
   font-family: "Merriweather", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif; }
@@ -220,11 +221,8 @@ p code {
     margin: 40px auto 0;
     width: 100px; }
 
-.post-content {
-  margin: 0 0 92px; }
-  .post-content a:hover {
-    border-bottom: 1px dotted #f03838;
-    padding: 0 0 2px; }
+.post-content a:hover {
+  padding: 0 0 2px; }
 
 .post-tags {
   color: #AEADAD;
@@ -380,7 +378,7 @@ p code {
 /* ============================================================ */
 .fb-comments {
   width: calc(100% - 80px);
-  margin: 0 40px; }
+  margin: 20px 40px 40px 40px; }
   .fb-comments > span {
     width: 100% !important; }
     .fb-comments > span > iframe {
@@ -421,7 +419,7 @@ section.author {
     display: inline-block; }
   section.author p.bio {
     font-size: 16px;
-    margin-left: 82px;
+    margin-left: 80px;
     line-height: 1.4em; }
 
 img.userimage {
